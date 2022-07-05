@@ -1,0 +1,555 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.sect1 {
+	width:100%;
+	height:100vh;
+	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
+	background-attachment: fixed;
+	background-position:center;
+	background-size: cover;
+	padding-top:30vh;
+}
+.foto_perfil {
+	display:block;
+	margin:auto;
+	width:200px;
+	border-radius:100%;
+	border-style:solid;
+	border-color:white;
+	border-width:3px;
+}
+.segunda_foto {
+	height:330px;
+	border-style:solid;
+	border-color:#00dcdc;
+	border-width:2px;
+}
+.title {
+	color: white;
+	text-transform: uppercase;
+	line-height: 50px;
+	margin:auto;
+	text-align:center;
+	font-size:40px;
+	font-family:'Lato', sans-serif;	
+}
+.title-content {
+	display: block;
+	opacity: 0;
+	animation: revealText 2s forwards;	
+}
+.title-second {
+	animation-delay: 1s;
+}
+.title-third {
+	animation-delay: 2s;	
+}
+@keyframes revealText {
+	from {
+		transform: translateY(20px);		
+	}
+	to {
+		opacity:1;
+		transform: none;		
+	}	
+}
+.cajita {
+	margin-top:20px;
+	width:420px;
+	height:70px;
+	margin-left:calc(50% - 210px);
+
+}
+.icons {
+	float:left;
+	width:50px;
+	height:50px;
+	margin:10px;
+}
+.icon {
+	width:50px;
+	height:50px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 26px;
+	color: #fff;
+	border-radius: 50%;
+	outline: 2px solid #fff;
+	transition-property:outline-offset, outline-color, background-color;
+	transition-duration: .25s;
+}
+.icon:hover {
+	outline-offset: 4px;	
+}
+icon:hover i{
+	animation: shake .25s;
+}
+.icon--instagram:hover {
+	float:left;
+	background-image:
+	radial-gradient(circle at 30% 107%,
+	#fdf497 0%, #fdf497 5%,
+	#fd5949 45%, #d6249f 60%,
+	#285AEB 90%);
+	outline-color: #a02d76;	
+}
+.icon--twitter:hover {
+	background-color: #1da1f2;
+	outline-color: #1da1f2;	
+}
+.icon--linkedin:hover {
+	background-color:#0038b5;
+	outline-color:#0038b5;
+}
+.icon--github:hover {
+	background-color:#2ea44f;
+	outline-color:#2ea44f;	
+}
+.icon--codepen:hover {
+	background-color:black;
+	outline-color:white;	
+}
+.icon--spotify:hover {
+	background-color:black;
+	outline-color:#2ea44f;	
+}
+@keyframes shake {
+	10%(transform: rotate(15deg);)
+	20%(transform: rotate(-15deg);)
+	30%(transform: rotate(15deg);)
+	40%(transform: rotate(-15deg);)	
+	50%(transform: rotate(15deg);)
+}
+.sect2 {
+	background-color:black;
+	width:100%;
+	height:350px;
+	padding:10px;
+}
+.contenedor2 {
+	width:100%;
+	height:100%;
+	background-color:black;
+	margin:auto;
+}
+.sect21 {
+	float:left;
+	background-color:black;
+	height:330px;
+	width:20%;	
+}
+.sect22 {
+	float:right;
+	background-color:black;
+	background-position:center;
+	background-size: cover;
+	width:calc(100vw - 330px);
+	height:100%;
+	border-width:2px;
+	border-style:solid;
+	border-color:#00dcdc;
+	padding:15px;
+	font-family:'Poppins',sans-serif;
+}
+.lista2 {
+	float:left;
+	margin-left:150px;
+}
+
+.lista1 {
+	float:right;
+	margin-right:150px;
+}
+li {
+	font-weight:bold;
+	color:white;
+	text-justify:justify;
+	margin-top:20px;
+	font-size: 20px;
+}
+.about_me {
+	text-align:center;
+	font-size:40px;
+	color:white;
+	font-family:'Poppins', sans-serif;	
+}
+.descripcion {
+	margin-top:15px;
+	font-weight:bold;
+	text-justify:justify;
+	font-size:20px;
+	color:white;
+	font-family:'Poppins', sans-serif;	
+}
+.sect4 {
+	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
+	width:100%;
+	height:600px;
+	padding:10px;
+	background-attachment: fixed;
+	background-position:center;
+	background-size: cover;
+	font-family:'Lato',sans-serif;
+}
+.curso {
+	float:left;
+	width:32%;
+	height:500px;
+	margin:8px;
+	margin-top:20px;
+	padding:0px;
+	color:white;
+	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
+	background-attachment: fixed;
+	background-position:center;
+	background-size: cover;
+	text-justify:justfy;
+	-webkit-perspective: 2000;
+	text-align:center;
+}
+.carta {
+	width:100%;
+	height:100%;
+	position:relative;
+	transform-style: preserve-3d;
+	transition:1s;
+}
+.carta:hover {
+	transform: rotateY(180deg);
+}
+
+.side {
+	width:100%;
+	height:100%;
+	backface-visibility: hidden;
+	position:absolute;
+}
+.front {
+	background: linear-gradient(to right, black, #494bc7, #00aeaa);
+	background-size: 400% 400%;
+	animation: animate-background 10s infinite ease-in-out;	
+}
+.back {	
+	background: linear-gradient(to right, black, #494bc7, #00aeaa);
+	background-size: 400% 400%;
+	animation: animate-background 10s infinite ease-in-out;	
+	transform: rotateY(180deg);
+}
+@keyframes animate-background {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+.titulo_cursito {
+	font-weight:bold;
+	font-size:25px;
+	color:white;
+	margin-top:5px;
+}
+.dato_cursito {
+	font-weight:bold;
+	margin-top:20px;
+	font-size:19px;
+	color:white;
+}
+.fecha_cursito {
+	margin-top:20px;
+	font-size:17px;
+	color:white;
+}
+.descripcion_cursito {
+	font-weight:bold;
+	margin-top:20px;
+	font-size:20px;
+	padding:20px;
+	color:white;
+}
+
+.certificado_python {
+	width:380px;
+	margin-top:80px;
+	border-style:solid;
+	border-width:3px;
+	border-color:black;
+}
+.certificado_r {
+	width:380px;
+	margin-top:80px;
+	border-style:solid;
+	border-width:3px;
+	border-color:black;
+}
+.certificado_web {
+	width:380px;
+	height:270.5px;
+	margin-top:80px;
+	border-style:solid;
+	border-width:3px;
+	border-color:black;
+	background-color:white;
+}
+.sect5 {
+	background-color:black;
+	width:100%;
+	height:220px;
+	padding:10px;
+}
+.tecnologias {
+	float:bottom;
+	width:100%;
+	height:200px;
+	background-color:black;
+	text-align:center;
+	color:white;
+	border-style:solid;
+	border-color:#00dcdc;
+	border-width:2px;
+	font-family:'Rubik',sans-serif;
+}
+.lenguaje {
+	float:left;
+	width:150px;
+	height:150px;
+	margin:19px;
+}
+.tecnologia {
+	color:white;
+	font-size:28px;
+	text-align:center;
+	font-family:'Lato',sans-serif;
+}
+.sect7 {
+	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
+	background-attachment: fixed;
+	background-position:center;
+	background-size: cover;
+	width:100%;
+	height:650px;
+	padding:0px;
+	font-family:'Lato',sans-serif;
+}
+.titu_seccion_7 {
+	color:white;
+	font-size:28px;
+	text-align:center;
+	padding:10px;
+	margin:10px;
+	font-family:'Lato',sans-serif;
+}
+.Educacion {
+	width:40%;
+	height:500px;
+	float:left;
+	color:white;
+	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
+	background-attachment: fixed;
+	background-position:center;
+	background-size: cover;
+	margin-left:100px;
+	text-justify:justfy;
+	-webkit-perspective: 2000;
+}
+.carta1 {
+	width:100%;
+	height:100%;
+	position:relative;
+	transform-style: preserve-3d;
+	transition:1s;
+}
+.carta1:hover {
+	transform: rotateY(180deg);
+}
+.lado {
+	width:100%;
+	height:100%;
+	backface-visibility: hidden;
+	position:absolute;
+}
+.frente1 {
+	background: linear-gradient(to right, black, #494bc7, #00aeaa);
+	background-size: 400% 400%;
+	animation: animate-background 10s infinite ease-in-out;	
+}
+.atras1 {
+	background: linear-gradient(to right, black, #494bc7, #00aeaa);
+	background-size: 400% 400%;
+	animation: animate-background 10s infinite ease-in-out;	
+	transform: rotateY(180deg);
+}
+.Experiencia {
+	width:40%;
+	height:500px;
+	float:right;
+	color:white;
+	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
+	background-attachment: fixed;
+	background-position:center;
+	background-size: cover;
+	margin-right:100px;
+	text-justify:justify;
+	-webkit-perspective: 2000;
+}
+.accion {
+	font-size:26px;
+	text-align:center;
+	margin-top:60px;
+	color:white;
+	padding:5px;
+}
+.lugar {
+	font-size:20px;
+	text-align:center;
+	color:white;
+	padding:5px;
+}
+.fecha {
+	font-size:18px;
+	text-align:center;
+	color:white;
+	padding-bottom:90px;
+}
+.tareas {
+	font-weight:bold;
+	font-size:18px;
+	color:white;
+	padding:3px;
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;
+}
+#space1 {
+	padding-top:10px;
+
+}
+#space2 {
+	padding-top:100px;
+}
+.sect8 {
+	background-color:black;
+	width:100%;
+	height:505px;
+	padding:10px;	
+}
+.contacto {
+	text-align:center;
+	color:white;
+	font-size:25px;
+	padding-top:5px;
+	padding-bottom:10px;
+	font-family:'Lato',sans-serif;
+}
+.border_seccion8 {
+	float:bottom;
+	width:100%;
+	height:100%;
+	border-style:solid;
+	border-color:#00dcdc;
+	border-width:2px;
+}
+#name {
+	color:white;
+	font-size:15px;
+	height:30px;
+	width:25%;
+	float:left;
+	border-radius:5px;
+	border-color:white;
+	border-style:solid;
+	margin-left:22%;
+	margin-right:2%;
+	margin-top:20px;
+	margin-bottom:15px;
+	padding:5px;
+	background-color:black;
+}
+#email {
+	color:white;
+	font-size:15px;
+	height:30px;
+	width:25%;
+	float:left;
+	border-radius:5px;
+	border-color:white;
+	border-style:solid;
+	margin-left:2%;
+	margin-top:20px;
+	margin-bottom:15px;
+	padding:5px;
+	background-color:black;
+}
+#subject {
+	color:white;
+	font-size:15px;
+	height:30px;
+	width:54%;
+	float:left;
+	border-radius:5px;
+	border-color:white;
+	border-style:solid;
+	margin-left:22%;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:5px;
+	background-color:black;
+}
+#messaje {
+	color:white;
+	font-size:15px;
+	height:200px;
+	width:54%;
+	float:left;
+	border-radius:5px;
+	border-color:white;
+	border-style:solid;
+	border-width:2px;
+	margin-left:22%;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:5px;
+	background-color:black;
+}
+.special1 {
+	color:white;
+	font-size:15px;
+	height:50px;
+	width:10%;
+	float:left;
+	border-radius:5px;
+	margin-left:37%;
+	margin-right:2%;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:5px;
+	background-color:#006dd0;	
+}
+.special1:hover {
+	background-color:#0055d0;
+}
+.special2 {
+	color:white;
+	font-size:15px;
+	height:50px;
+	width:10%;
+	float:left;
+	border-radius:5px;
+	position:center;
+	margin-left:2%;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:5px;
+	background-color:#006dd0;	
+}
+.special2:hover {
+	background-color:#0055d0;
+}
