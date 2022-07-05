@@ -1,3 +1,51 @@
+@media only screen and (max-width:1920px) {
+	.foto_perfil {
+		width:200px;
+	}	
+	.segunda_foto {
+		height:330px;
+	}
+	.title {
+		line-height: 50px;
+		font-size:40px;
+	}
+}	
+@media only screen and (max-width:1280px) {
+	.foto_perfil {
+		width:200px;
+	}	
+	.segunda_foto {
+		height:330px;
+	}
+	.title {
+		line-height: 50px;
+		font-size:40px;
+	}
+}
+@media only screen and (max-width:800px) {
+	.foto_perfil {
+		width:200px;
+	}	
+	.segunda_foto {
+		height:330px;
+	}
+	.title {
+		line-height: 50px;
+		font-size:40px;
+	}
+}
+@media only screen and (max-width:480px) {
+	.foto_perfil {
+		width:40vw;
+	}
+	.segunda_foto {
+		height:50vw;
+	}
+	.title {
+		line-height:45px;
+		font-size:30px;
+	}
+}
 * {
 	margin: 0px;
 	padding: 0px;
@@ -15,14 +63,12 @@
 .foto_perfil {
 	display:block;
 	margin:auto;
-	width:200px;
 	border-radius:100%;
 	border-style:solid;
 	border-color:white;
 	border-width:3px;
 }
 .segunda_foto {
-	height:330px;
 	border-style:solid;
 	border-color:#00dcdc;
 	border-width:2px;
@@ -33,7 +79,6 @@
 	line-height: 50px;
 	margin:auto;
 	text-align:center;
-	font-size:40px;
 	font-family:'Lato', sans-serif;	
 }
 .title-content {
@@ -429,7 +474,7 @@ li {
 	padding-right:20px;
 }
 #space1 {
-	padding-top:10px;
+	padding-top:5px;
 
 }
 #space2 {
