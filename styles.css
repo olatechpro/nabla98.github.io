@@ -4,34 +4,841 @@
 	}	
 	.segunda_foto {
 		height:330px;
+		width:284.667px;
 	}
 	.title {
-		line-height: 50px;
+		line-height:50px;
 		font-size:40px;
+	}
+	.cajita {
+		margin-top:20px;
+		width:420px;
+		height:70px;
+		margin-left:calc(50% - 210px);
+	}
+	.icons {
+		width:50px;
+		height:50px;
+		margin:10px;
+	}
+	.icon {
+		width:50px;
+		height:50px;
+		font-size:26px;
+	}
+	svg {
+		width:40px;
+		height:40px;
+	}
+	.sect2 {
+		width:100%;
+		height:350px;
+		padding:10px;
+	}
+	.contenedor2 {
+		width:100%;
+		height:100%;
+	}
+	
+	.sect21 {
+		float:left;
+		height:330px;
+		width:284.667px;	
+	}
+	.sect22 {
+		float:right;
+		width:calc(100% - 294.667px) ;
+		height:330px;
+		padding:15px;
+	}
+	.lista2 {
+		float:left;
+		margin-left:10vw;
+	}
+
+	.lista1 {
+		float:right;
+		margin-right:10vw;
+	}
+	li {
+		text-justify:justify;
+		margin-top:20px;
+		font-size: 18px;
+	}
+	.about_me {
+		text-align:center;
+		font-size:40px;	
+	}
+	.descripcion {
+		margin-top:15px;
+		text-justify:justify;
+		font-size:20px;
+	}
+	.sect4 {
+		width:100%;
+		height:600px;
+		padding:10px;
+	}
+	.curso {
+		float:left;
+		width:405px;
+		height:500px;
+		margin-left:calc((100% - 1215px) / 4);
+		margin-top:20px;
+		margin-bottom:10px;
+		padding:0px;
+	}
+	.titulo_cursito {
+		font-size:25px;
+		margin-top:20px;
+	}
+	.dato_cursito {
+		margin-top:20px;
+		font-size:19px;
+	}
+	.fecha_cursito {
+		margin-top:20px;
+		font-size:17px;
+	}
+	.descripcion_cursito {
+		margin-top:20px;
+		font-size:19px;
+		padding:20px;
+	}
+	.certificado_python {
+		width:380px;
+		margin-top:70px;
+		border-style:solid;
+		border-width:3px;
+		border-color:black;
+	}
+	.certificado_r {
+		width:380px;
+		margin-top:70px;
+		border-style:solid;
+		border-width:3px;
+		border-color:black;
+	}
+	.certificado_web {
+		width:380px;
+		height:270.5px;
+		margin-top:70px;
+		border-style:solid;
+		border-width:3px;
+		border-color:black;
+		background-color:white;
+	}
+	.sect5 {
+		width:100%;
+		height:240px;
+		padding:10px;
+	}
+	.tecnologias {
+		float:bottom;
+		width:100%;
+		height:100%;
+		text-align:center;
+	}
+	.lenguaje {
+		float:left;
+		width:10%;
+		height:60%;
+		margin-left:3.75%;
+		margin-top:1.5%;
+	}
+	.tecnologia {
+		margin-top:15px;
+		font-size:30px;
+		text-align:center;
+	}
+	.imgtech {
+		width:100px;
+	}
+	.sect7 {
+		width:100%;
+		height:635px;
+		padding:0px;
+	}
+	.titu_seccion_7 {
+		color:white;
+		font-size:30px;
+		padding:10px;
+		margin:10px;
+	}
+	.Educacion {
+		width:539.6px;
+		height:500px;
+		float:left;
+		margin-left:calc((100% - 1079.2px) / 3);
+		text-justify:justfy;
+	}
+	.Experiencia {
+		width:539.6px;
+		height:500px;
+		float:right;
+		margin-right:calc((100% - 1079.2px) / 3);
+	}
+	.accion {
+		font-size:26px;
+		text-align:center;
+		margin-top:65px;
+		padding:5px;
+	}
+	.lugar {
+		font-size:20px;
+		text-align:center;
+		padding:5px;
+	}
+	.fecha {
+		font-size:18px;
+		text-align:center;
+		padding-bottom:90px;
+	}
+	.tareas {
+		font-size:18px;
+		padding:3px;
+		text-align:center;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	#space1 {
+		padding-top:10px;
+	}
+	#space2 {
+		padding-top:68px;
+		font-size:22px;
+		padding-bottom:7px;
+	}
+	.sect8 {
+		width:100%;
+		height:525px;
+		padding:10px;	
+	}
+	.contacto {
+		font-size:30px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.border_seccion8 {
+		float:bottom;
+		width:100%;
+		height:100%;
+	}
+	#name {
+		font-size:15px;
+		height:30px;
+		width:331.018px;
+		float:left;
+		margin-left:calc(50% - 357.5px);
+		margin-top:20px;
+		margin-bottom:15px;
+		padding:5px;
+	}
+	#email {
+		font-size:15px;
+		height:30px;
+		width:331.018px;
+		float:left;
+		margin-left:52px;
+		margin-top:20px;
+		margin-bottom:15px;
+		padding:5px;
+	}
+	#subject {
+		font-size:15px;
+		height:30px;
+		width:715px;
+		float:left;
+		margin-left:calc(50% - 357.5px);
+		margin-top:15px;
+		margin-bottom:15px;
+		padding:5px;
+	}
+	#messaje {
+		font-size:15px;
+		height:200px;
+		width:715px;
+		float:left;
+		margin-left:calc(50% - 357.5px);
+		margin-top:15px;
+		margin-bottom:15px;
+		padding:5px;
+	}
+	.special1 {
+		font-size:15px;
+		height:50px;
+		width:132.5px;
+		float:left;
+		margin-left:calc(48% - 132.5px);
+		margin-right:2%;
+		margin-top:15px;
+		margin-bottom:15px;
+		padding:5px;	
+	}
+	.special2 {
+		font-size:15px;
+		height:50px;
+		width:132.5px;
+		float:left;
+		border-radius:5px;
+		position:center;
+		margin-left:2%;
+		margin-top:15px;
+		margin-bottom:15px;
+		padding:5px;	
 	}
 }	
 @media only screen and (max-width:1280px) {
 	.foto_perfil {
-		width:200px;
-	}	
+		width:16vw;
+	}
 	.segunda_foto {
-		height:330px;
+		height:30vw;
+		width:25.8333vw;
+		margin-left:0vw;
 	}
 	.title {
-		line-height: 50px;
-		font-size:40px;
+		margin-top:1.6vw;
+		line-height:4.1vw;
+		font-size:3.6vw;
+	}
+	.cajita {
+		width:420px;
+		height:70px;
+		margin-left:calc(50% - 210px);
+		margin-top:1.3vw;
+	}
+	.icons {
+		width:50px;
+		height:50px;
+		margin:10px;
+	}
+	.icon {
+		width:50px;
+		height:50px;
+	}
+	svg {
+		width:40px;
+		height:40px;
+	}
+	.sect2 {
+		width:100vw;
+		height:32vw;
+		padding:1vw;
+	}
+	
+	.sect21 {
+		float:left;
+		height:30vw;
+		width:10vw;	
+	}
+	.sect22 {
+		float:right;
+		width:calc(100vw - 28.8333vw);
+		height:30vw;
+		padding:1vw;
+	}
+	.lista2 {
+		float:left;
+		margin-left:2vw;
+	}
+
+	.lista1 {
+		float:right;
+		margin-right:2vw;
+	}
+	li {
+		text-justify:justify;
+		margin-top:1.2vw;
+		font-size: 1.6vw;
+	}
+	.about_me {
+		text-align:center;
+		font-size:3.5vw;
+	}
+	.descripcion {
+		margin-top:1vw;
+		text-justify:justify;
+		font-size:2vw;
+		margin-left:2vw;
+	}
+	.sect4 {
+		width:100vw;
+		height:69vw;
+		padding:1vw;
+	}
+	.curso {
+		float:left;
+		width:30vw;
+		height:55vw;
+		margin-top:4vw;
+		margin-left:calc((100% - 90vw) / 4);
+	}
+	.titulo_cursito {
+		font-size:2.5vw;
+		margin-top:3vw;
+	}
+	.dato_cursito {
+		margin-top:2vw;
+		font-size:1.9vw;
+	}
+	.fecha_cursito {
+		margin-top:1.8vw;
+		font-size:1.5vw;
+	}
+	.descripcion_cursito {
+		margin-top:0.5vw;
+		font-size:1.8vw;
+		padding:1vw;
+	}
+	.certificado_python {
+		width:90%;
+		margin-top:18vw;
+	}
+	.certificado_r {
+		width:90%;
+		margin-top:18vw;
+	}
+	.certificado_web {
+		width:90%;
+		height:35.2%;
+		margin-top:17.1vw;
+	}
+	.sect5 {
+		width:100vw;
+		height:25vw;
+		padding:1vw;
+	}
+	.tecnologias {
+		float:bottom;
+		width:100%;
+		height:100%;
+		text-align:center;
+	}
+	.lenguaje {
+		float:left;
+		width:10vw;
+		height:10vw;
+		margin:1.95vw;
+	}
+	.tecnologia {
+		margin-top:1.8vw;
+		margin-bottom:0.5vw;
+		font-size:2.5vw;
+		text-align:center;
+	}
+	.imgtech {
+		width:10vw;
+	}
+	.sect7 {
+		width:100vw;
+		height:76vw;
+		padding:0px;
+	}
+	.titu_seccion_7 {
+		font-size:3vw;
+		padding:1.5vw;
+		margin:1.5vw;
+	}
+	.Educacion {
+		width:44%;
+		height:63vw;
+		float:left;
+		margin-left:3.7vw;
+	}
+	.Experiencia {
+		width:44%;
+		height:63vw;
+		float:right;
+		margin-right:3.7vw;
+	}
+	.accion {
+		font-size:2.5vw;
+		text-align:center;
+		margin-top:8vw;
+		padding:1vw;
+	}
+	.lugar {
+		font-size:2.2vw;
+		text-align:center;
+		padding:1vw;
+	}
+	.fecha {
+		font-size:2vw;
+		text-align:center;
+		padding-bottom:10vw;
+	}
+	.tareas {
+		font-size:1.8vw;
+		padding:1vw;
+		text-align:center;
+		padding-left:2vw;
+		padding-right:2vw;
+	}
+	#space1 {
+		padding-top:1.6vw;
+
+	}
+	#space2 {
+		padding-top:5.5vw;
+		font-size:2.2vw;
+	}
+	.sect8 {
+		width:100%;
+		height:525px;
+		padding:10px;	
+	}
+	.contacto {
+		font-size:30px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.border_seccion8 {
+		float:bottom;
+		width:100%;
+		height:100%;
+	}
+	#name {
+		font-size:15px;
+		height:30px;
+		width:331.018px;
+		float:left;
+		margin-left:calc(50% - 357.5px);
+		margin-top:20px;
+		margin-bottom:15px;
+		padding:5px;
+	}
+	#email {
+		font-size:15px;
+		height:30px;
+		width:331.018px;
+		float:left;
+		margin-left:52px;
+		margin-top:20px;
+		margin-bottom:15px;
+		padding:5px;
+	}
+	#subject {
+		font-size:15px;
+		height:30px;
+		width:715px;
+		float:left;
+		margin-left:calc(50% - 357.5px);
+		margin-top:15px;
+		margin-bottom:15px;
+		padding:5px;
+	}
+	#messaje {
+		font-size:15px;
+		height:200px;
+		width:715px;
+		float:left;
+		margin-left:calc(50% - 357.5px);
+		margin-top:15px;
+		margin-bottom:15px;
+		padding:5px;
+	}
+	.special1 {
+		font-size:15px;
+		height:50px;
+		width:132.5px;
+		float:left;
+		margin-left:calc(48% - 132.5px);
+		margin-right:2%;
+		margin-top:15px;
+		margin-bottom:15px;
+		padding:5px;	
+	}
+	.special2 {
+		font-size:15px;
+		height:50px;
+		width:132.5px;
+		float:left;
+		border-radius:5px;
+		position:center;
+		margin-left:2%;
+		margin-top:15px;
+		margin-bottom:15px;
+		padding:5px;	
 	}
 }
 @media only screen and (max-width:800px) {
 	.foto_perfil {
-		width:200px;
-	}	
+		width:25vw;
+	}
 	.segunda_foto {
-		height:330px;
+		height:90vw;
+		width:77.5vw;
+		margin-left:11vw;
 	}
 	.title {
-		line-height: 50px;
-		font-size:40px;
+		margin-top:2vw;
+		line-height:6vw;
+		font-size:5vw;
+	}
+	.cajita {
+		width:72vw;
+		height:70px;
+		margin-left:calc(50% - 36vw);
+		margin-top:2vw;
+	}
+	.icons {
+		width:8vw;
+		height:8vw;
+		margin:2vw;
+	}
+	.icon {
+		width:8vw;
+		height:8vw;
+	}
+	svg {
+		width:6vw;
+		height:6vw;
+	}
+	.sect2 {
+		width:100%;
+		height:169vw;
+		padding:0px;
+	}	
+	.sect21 {
+		height:90vw;
+		width:30%;	
+		margin-bottom:3vw;
+		margin-top:3vw;
+	}
+	.sect22 {
+		width:77.5vw;
+		height:70vw;
+		padding:1.5vw;
+		text-align:center;
+		margin-right:11.5vw;
+	}
+	.lista2 {	
+		width:30vw;
+		float:left;
+		margin-left:4.3vw;
+		margin-top:1.8vw;
+	}
+	.lista1 {
+		width:30vw;
+		float:right;
+		margin-right:4.3vw;
+		margin-top:2.2vw;
+	}
+	li {
+		font-weight:bold;
+		color:white;
+		margin-top:3.1vw;
+		font-size: 2.5vw;
+	}
+	.about_me {
+		text-align:center;
+		font-size:6vw;
+	}
+	.descripcion {
+		margin-top:3vw;
+		font-weight:bold;
+		font-size:3vw;
+	}
+	.sect4 {
+		width:100vw;
+		height:280vw;
+		padding:3vw;
+	}
+	.curso {
+		float:center;
+		width:70vw;
+		height:80vw;
+		margin-left:12vw;
+		margin-top:5vw;
+		padding:0px;
+	}
+	.titulo_cursito {
+		font-size:4vw;
+		margin-top:4vw;
+	}
+	.dato_cursito {
+		margin-top:2vw;
+		font-size:3vw;
+	}
+	.fecha_cursito {
+		margin-top:2vw;
+		font-size:2vw;
+	}
+	.descripcion_cursito {
+		margin-top:2vw;
+		font-size:3vw;
+		padding:2vw;
+	}
+	.certificado_python {
+		width:90%;
+		margin-top:12vw;
+	}
+	.certificado_r {
+		width:90%;
+		margin-top:12vw;
+	}
+	.certificado_web {
+		width:90%;
+		height:55%;
+		margin-top:13vw;
+	}
+	.sect5 {
+		width:100vw;
+		height:110vw;
+		padding:3vw;
+	}
+	.tecnologias {
+		float:bottom;
+		width:70vw;
+		height:100%;
+		text-align:center;
+		margin-left:12vw;
+	}
+	.lenguaje {
+		float:center;
+		width:15vw;
+		height:15vw;
+		margin-left:12vw;
+		margin-top:4vw;
+	}
+	.tecnologia {
+		margin-top:3vw;
+		font-size:5vw;
+		text-align:center;
+		margin-bottom:1.5vw;
+	}
+	.imgtech {
+		width:15vw
+	}
+	.sect7 {
+		width:100vw;
+		height:268vw;
+		padding:0px;
+	}
+	.titu_seccion_7 {
+		font-size:5vw;
+		padding:3vw;
+		margin:2vw;
+	}
+	.Educacion {
+		width:70vw;
+		height:115vw;
+		float:center;
+		margin-left:15vw;
+		text-justify:justfy;
+	}
+	.Experiencia {
+		width:70vw;
+		height:115vw;
+		float:center;
+		margin-right:15vw;
+		margin-top:15vw;
+	}
+	.accion {
+		font-size:5vw;
+		margin-top:16vw;
+		padding:2vw;
+	}
+	.lugar {
+		font-size:3.5vw;
+		padding:2vw;
+	}
+	.fecha {
+		font-size:3vw;
+		padding-bottom:8vw;
+	}
+	.tareas {
+		font-size:2.5vw;
+		padding:2vw;
+		padding-left:5vw;
+		padding-right:5vw;
+	}
+	#space1 {
+		padding-top:3vw;
+		font-size:3vw;
+
+	}
+	#space2 {
+		padding-top:12vw;
+		font-size:4vw;
+	}
+	.sect8 {
+		width:100vw;
+		height:103vw;
+		padding:2vw;	
+	}
+	.contacto {
+		font-size:5vw;
+		padding-top:3vw;
+		padding-bottom:3vw;
+	}
+	.border_seccion8 {
+		float:bottom;
+		width:100%;
+		height:100%;
+	}
+	#name {
+		font-size:3vw;
+		height:6vw;
+		width:38vw;
+		float:left;
+		margin-left:8vw;
+		margin-right:2vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;
+	}
+	#email {
+		font-size:3vw;
+		height:6vw;
+		width:38vw;
+		float:left;
+		margin-left:2vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;
+	}
+	#subject {
+		font-size:3vw;
+		height:6vw;
+		width:80vw;
+		float:left;
+		margin-left:8vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;
+	}
+	#messaje {
+		font-size:3vw;
+		height:40vw;
+		width:80vw;
+		float:left;
+		margin-left:8vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;
+	}
+	.special1 {
+		font-size:3vw;
+		height:8vw;
+		width:15vw;
+		float:left;
+		margin-left:31vw;
+		margin-right:2vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;	
+	}
+	.special2 {
+		font-size:3vw;
+		height:8vw;
+		width:15vw;
+		float:left;
+		margin-left:2vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;
 	}
 }
 @media only screen and (max-width:480px) {
@@ -39,11 +846,276 @@
 		width:40vw;
 	}
 	.segunda_foto {
-		height:50vw;
+		width:95vw;
+		height:110vw;
+		margin-left:2.5vw;
 	}
 	.title {
-		line-height:45px;
-		font-size:30px;
+		line-height:10vw;
+		font-size:7vw;
+	}
+	.cajita {
+		width:90vw;
+		height:70px;
+		margin-left:calc(50% - 45vw);
+	}
+	.icons {
+		width:10vw;
+		height:10vw;
+		margin:2.5vw;
+	}
+	.icon {
+		width:10vw;
+		height:10vw;
+	}
+	svg {
+		width:8vw;
+		height:8vw;
+	}
+	.sect2 {
+		width:100%;
+		height:203vw;
+		padding:0px;
+	}	
+	.sect21 {
+		height:110vw;
+		width:30%;	
+		margin-bottom:3vw;
+		margin-top:3vw;
+	}
+	.sect22 {
+		width:95vw;
+		height:84vw;
+		padding:1.5vw;
+		text-align:center;
+		margin-right:2.5vw;
+	}
+	.lista2 {	
+		width:40vw;
+		float:left;
+		margin-left:4vw;
+		margin-top:2.8vw;
+	}
+	.lista1 {
+		width:40vw;
+		float:right;
+		margin-right:4vw;
+		margin-top:2.8vw;
+	}
+	li {
+		font-weight:bold;
+		color:white;
+		margin-top:3vw;
+		font-size: 3vw;
+	}
+	.about_me {
+		text-align:center;
+		font-size:8vw;
+	}
+	.descripcion {
+		margin-top:3vw;
+		font-weight:bold;
+		font-size:4vw;
+	}
+	.sect4 {
+		width:100vw;
+		height:400vw;
+		padding:3vw;
+	}
+	.curso {
+		float:center;
+		width:90vw;
+		height:120vw;
+		margin:2vw;
+		margin-top:5vw;
+		padding:0px;
+	}
+	.titulo_cursito {
+		font-size:5vw;
+		margin-top:5vw;
+	}
+	.dato_cursito {
+		margin-top:3vw;
+		font-size:4vw;
+	}
+	.fecha_cursito {
+		margin-top:3vw;
+		font-size:3vw;
+	}
+	.descripcion_cursito {
+		margin-top:3vw;
+		font-size:4.5vw;
+		padding:3vw;
+	}
+	.certificado_python {
+		width:90%;
+		margin-top:30vw;
+	}
+	.certificado_r {
+		width:90%;
+		margin-top:30vw;
+	}
+	.certificado_web {
+		width:90%;
+		height:65vw;
+		margin-top:25vw;
+	}
+	.sect5 {
+		width:100vw;
+		height:135vw;
+		padding:2vw;
+	}
+	.tecnologias {
+		float:bottom;
+		width:100%;
+		height:100%;
+		text-align:center;
+		margin:0vw;
+	}
+	.lenguaje {
+		float:center;
+		width:20vw;
+		height:20vw;
+		margin-left:17vw;
+		margin-top:4vw;
+	}
+	.tecnologia {
+		margin-top:6vw;
+		font-size:6vw;
+		text-align:center;
+		margin-bottom:2vw;
+	}
+	.imgtech {
+		width:20vw
+	}
+	.sect7 {
+		width:100vw;
+		height:355vw;
+		padding:0px;
+	}
+	.titu_seccion_7 {
+		font-size:6vw;
+		padding:3vw;
+		margin:3vw;
+	}
+	.Educacion {
+		width:90vw;
+		height:155vw;
+		float:center;
+		margin-left:5.5vw;
+		text-justify:justfy;
+	}
+	.Experiencia {
+		width:90vw;
+		height:155vw;
+		float:center;
+		margin-right:4.5vw;
+		margin-top:20vw;
+	}
+	.accion {
+		font-size:6vw;
+		margin-top:25vw;
+		padding:2vw;
+	}
+	.lugar {
+		font-size:5vw;
+		padding:2vw;
+	}
+	.fecha {
+		font-size:4vw;
+		padding-bottom:10vw;
+	}
+	.tareas {
+		font-size:3.5vw;
+		padding:2vw;
+		padding-left:5vw;
+		padding-right:5vw;
+	}
+	#space1 {
+		padding-top:4vw;
+		font-size:4vw;
+
+	}
+	#space2 {
+		padding-top:16vw;
+		font-size:5vw;
+	}
+	.sect8 {
+		width:100vw;
+		height:105vw;
+		padding:2vw;	
+	}
+	.contacto {
+		font-size:6vw;
+		padding-top:3vw;
+		padding-bottom:3vw;
+	}
+	.border_seccion8 {
+		float:bottom;
+		width:100%;
+		height:100%;
+	}
+	#name {
+		font-size:3vw;
+		height:6vw;
+		width:38vw;
+		float:left;
+		margin-left:8vw;
+		margin-right:2vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;
+	}
+	#email {
+		font-size:3vw;
+		height:6vw;
+		width:38vw;
+		float:left;
+		margin-left:2vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;
+	}
+	#subject {
+		font-size:3vw;
+		height:6vw;
+		width:80vw;
+		float:left;
+		margin-left:8vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;
+	}
+	#messaje {
+		font-size:3vw;
+		height:40vw;
+		width:80vw;
+		float:left;
+		margin-left:8vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;
+	}
+	.special1 {
+		font-size:3vw;
+		height:8vw;
+		width:15vw;
+		float:left;
+		margin-left:31vw;
+		margin-right:2vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;	
+	}
+	.special2 {
+		font-size:3vw;
+		height:8vw;
+		width:15vw;
+		float:left;
+		margin-left:2vw;
+		margin-top:3vw;
+		margin-bottom:3vw;
+		padding:1vw;
 	}
 }
 * {
@@ -75,9 +1147,6 @@
 }
 .title {
 	color: white;
-	text-transform: uppercase;
-	line-height: 50px;
-	margin:auto;
 	text-align:center;
 	font-family:'Lato', sans-serif;	
 }
@@ -102,21 +1171,11 @@
 	}	
 }
 .cajita {
-	margin-top:20px;
-	width:420px;
-	height:70px;
-	margin-left:calc(50% - 210px);
-
 }
 .icons {
 	float:left;
-	width:50px;
-	height:50px;
-	margin:10px;
 }
 .icon {
-	width:50px;
-	height:50px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -163,6 +1222,7 @@ icon:hover i{
 	background-color:black;
 	outline-color:#2ea44f;	
 }
+
 @keyframes shake {
 	10%(transform: rotate(15deg);)
 	20%(transform: rotate(-15deg);)
@@ -172,82 +1232,46 @@ icon:hover i{
 }
 .sect2 {
 	background-color:black;
-	width:100%;
-	height:350px;
-	padding:10px;
 }
 .contenedor2 {
-	width:100%;
-	height:100%;
 	background-color:black;
-	margin:auto;
 }
 .sect21 {
-	float:left;
 	background-color:black;
-	height:330px;
-	width:20%;	
 }
 .sect22 {
-	float:right;
 	background-color:black;
 	background-position:center;
 	background-size: cover;
-	width:calc(100vw - 330px);
-	height:100%;
 	border-width:2px;
 	border-style:solid;
 	border-color:#00dcdc;
-	padding:15px;
 	font-family:'Poppins',sans-serif;
 }
-.lista2 {
-	float:left;
-	margin-left:150px;
-}
 
-.lista1 {
-	float:right;
-	margin-right:150px;
-}
 li {
 	font-weight:bold;
 	color:white;
-	text-justify:justify;
-	margin-top:20px;
-	font-size: 20px;
 }
 .about_me {
 	text-align:center;
-	font-size:40px;
 	color:white;
 	font-family:'Poppins', sans-serif;	
 }
 .descripcion {
-	margin-top:15px;
 	font-weight:bold;
 	text-justify:justify;
-	font-size:20px;
 	color:white;
 	font-family:'Poppins', sans-serif;	
 }
 .sect4 {
 	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
-	width:100%;
-	height:600px;
-	padding:10px;
 	background-attachment: fixed;
 	background-position:center;
 	background-size: cover;
 	font-family:'Lato',sans-serif;
 }
 .curso {
-	float:left;
-	width:32%;
-	height:500px;
-	margin:8px;
-	margin-top:20px;
-	padding:0px;
 	color:white;
 	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
 	background-attachment: fixed;
@@ -298,47 +1322,30 @@ li {
 }
 .titulo_cursito {
 	font-weight:bold;
-	font-size:25px;
 	color:white;
-	margin-top:5px;
 }
 .dato_cursito {
 	font-weight:bold;
-	margin-top:20px;
-	font-size:19px;
 	color:white;
 }
 .fecha_cursito {
-	margin-top:20px;
-	font-size:17px;
 	color:white;
 }
 .descripcion_cursito {
 	font-weight:bold;
-	margin-top:20px;
-	font-size:20px;
-	padding:20px;
 	color:white;
 }
-
 .certificado_python {
-	width:380px;
-	margin-top:80px;
 	border-style:solid;
 	border-width:3px;
 	border-color:black;
 }
 .certificado_r {
-	width:380px;
-	margin-top:80px;
 	border-style:solid;
 	border-width:3px;
 	border-color:black;
 }
 .certificado_web {
-	width:380px;
-	height:270.5px;
-	margin-top:80px;
 	border-style:solid;
 	border-width:3px;
 	border-color:black;
@@ -346,14 +1353,9 @@ li {
 }
 .sect5 {
 	background-color:black;
-	width:100%;
-	height:220px;
-	padding:10px;
 }
 .tecnologias {
 	float:bottom;
-	width:100%;
-	height:200px;
 	background-color:black;
 	text-align:center;
 	color:white;
@@ -364,13 +1366,10 @@ li {
 }
 .lenguaje {
 	float:left;
-	width:150px;
-	height:150px;
-	margin:19px;
+	background-color:black;
 }
 .tecnologia {
 	color:white;
-	font-size:28px;
 	text-align:center;
 	font-family:'Lato',sans-serif;
 }
@@ -379,29 +1378,19 @@ li {
 	background-attachment: fixed;
 	background-position:center;
 	background-size: cover;
-	width:100%;
-	height:650px;
-	padding:0px;
 	font-family:'Lato',sans-serif;
 }
 .titu_seccion_7 {
 	color:white;
-	font-size:28px;
 	text-align:center;
-	padding:10px;
-	margin:10px;
 	font-family:'Lato',sans-serif;
 }
 .Educacion {
-	width:40%;
-	height:500px;
-	float:left;
 	color:white;
 	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
 	background-attachment: fixed;
 	background-position:center;
 	background-size: cover;
-	margin-left:100px;
 	text-justify:justfy;
 	-webkit-perspective: 2000;
 }
@@ -433,166 +1422,100 @@ li {
 	transform: rotateY(180deg);
 }
 .Experiencia {
-	width:40%;
-	height:500px;
-	float:right;
 	color:white;
 	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
 	background-attachment: fixed;
 	background-position:center;
 	background-size: cover;
-	margin-right:100px;
 	text-justify:justify;
 	-webkit-perspective: 2000;
 }
 .accion {
-	font-size:26px;
 	text-align:center;
-	margin-top:60px;
 	color:white;
-	padding:5px;
 }
 .lugar {
-	font-size:20px;
 	text-align:center;
 	color:white;
-	padding:5px;
 }
 .fecha {
-	font-size:18px;
 	text-align:center;
 	color:white;
-	padding-bottom:90px;
 }
 .tareas {
 	font-weight:bold;
-	font-size:18px;
 	color:white;
-	padding:3px;
 	text-align:center;
-	padding-left:20px;
-	padding-right:20px;
-}
-#space1 {
-	padding-top:5px;
-
-}
-#space2 {
-	padding-top:100px;
 }
 .sect8 {
-	background-color:black;
-	width:100%;
-	height:505px;
-	padding:10px;	
+	background-color:black;	
 }
 .contacto {
 	text-align:center;
 	color:white;
-	font-size:25px;
-	padding-top:5px;
-	padding-bottom:10px;
 	font-family:'Lato',sans-serif;
 }
 .border_seccion8 {
 	float:bottom;
-	width:100%;
-	height:100%;
 	border-style:solid;
 	border-color:#00dcdc;
 	border-width:2px;
 }
 #name {
 	color:white;
-	font-size:15px;
-	height:30px;
-	width:25%;
-	float:left;
+	font-family:'Lato',sans-serif;
 	border-radius:5px;
 	border-color:white;
 	border-style:solid;
-	margin-left:22%;
-	margin-right:2%;
-	margin-top:20px;
-	margin-bottom:15px;
-	padding:5px;
 	background-color:black;
 }
 #email {
+	font-family:'Lato',sans-serif;
 	color:white;
-	font-size:15px;
-	height:30px;
-	width:25%;
 	float:left;
 	border-radius:5px;
 	border-color:white;
 	border-style:solid;
-	margin-left:2%;
-	margin-top:20px;
-	margin-bottom:15px;
-	padding:5px;
 	background-color:black;
 }
 #subject {
+	font-family:'Lato',sans-serif;
 	color:white;
-	font-size:15px;
-	height:30px;
-	width:54%;
 	float:left;
 	border-radius:5px;
 	border-color:white;
 	border-style:solid;
-	margin-left:22%;
-	margin-top:15px;
-	margin-bottom:15px;
-	padding:5px;
 	background-color:black;
 }
 #messaje {
+	font-family:'Lato',sans-serif;
 	color:white;
-	font-size:15px;
-	height:200px;
-	width:54%;
 	float:left;
 	border-radius:5px;
 	border-color:white;
 	border-style:solid;
 	border-width:2px;
-	margin-left:22%;
-	margin-top:15px;
-	margin-bottom:15px;
-	padding:5px;
 	background-color:black;
 }
 .special1 {
+	font-family:'Lato',sans-serif;
+	text-align:center;
 	color:white;
-	font-size:15px;
-	height:50px;
-	width:10%;
 	float:left;
 	border-radius:5px;
-	margin-left:37%;
-	margin-right:2%;
-	margin-top:15px;
-	margin-bottom:15px;
-	padding:5px;
 	background-color:#006dd0;	
+	position:center;
 }
 .special1:hover {
 	background-color:#0055d0;
 }
 .special2 {
+	font-family:'Lato',sans-serif;
+	text-align:center;
 	color:white;
-	font-size:15px;
-	height:50px;
-	width:10%;
 	float:left;
 	border-radius:5px;
 	position:center;
-	margin-left:2%;
-	margin-top:15px;
-	margin-bottom:15px;
-	padding:5px;
 	background-color:#006dd0;	
 }
 .special2:hover {
