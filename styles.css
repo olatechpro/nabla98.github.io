@@ -1,4 +1,9 @@
 @media only screen and (max-width:1920px) {
+	.sect1 {
+		width:100%;
+		height:100vh;
+		padding-top:30vh;
+	}
 	.foto_perfil {
 		width:200px;
 	}	
@@ -289,8 +294,13 @@
 	}
 }	
 @media only screen and (max-width:1280px) {
+	.sect1 {
+		width:100%;
+		height:100vh;
+		padding-top:30vh;
+	}
 	.foto_perfil {
-		width:25vw;
+		width:15vw;
 	}
 	.segunda_foto {
 		height:30vw;
@@ -298,28 +308,29 @@
 		margin-left:0vw;
 	}
 	.title {
-		margin-top:3.5vw;
-		line-height:9vw;
-		font-size:7vw;
+		margin-top:2.2vw;
+		line-height:5vw;
+		font-size:4vw;
 	}
 	.cajita {
-		width:72vw;
+		margin-top:20px;
+		width:420px;
 		height:70px;
-		margin-left:calc(50% - 36vw);
-		margin-top:2vw;
+		margin-left:calc(50% - 210px);
 	}
 	.icons {
-		width:8vw;
-		height:8vw;
-		margin:2vw;
+		width:50px;
+		height:50px;
+		margin:10px;
 	}
 	.icon {
-		width:8vw;
-		height:8vw;
+		width:50px;
+		height:50px;
+		font-size:26px;
 	}
 	svg {
-		width:6vw;
-		height:6vw;
+		width:40px;
+		height:40px;
 	}
 	.sect2 {
 		width:100vw;
@@ -563,6 +574,11 @@
 	}
 }
 @media only screen and (max-width:800px) {
+	.sect1 {
+		width:;
+		height:;
+		padding-top:;
+	}
 	.foto_perfil {
 		width:25vw;
 	}
@@ -842,6 +858,11 @@
 	}
 }
 @media only screen and (max-width:480px) {
+	.sect1 {
+		width:;
+		height:;
+		padding-top:;
+	}	
 	.foto_perfil {
 		width:40vw;
 	}
@@ -1124,13 +1145,10 @@
 	box-sizing: border-box;
 }
 .sect1 {
-	width:100%;
-	height:100vh;
 	background-image:url(https://c.wallhere.com/photos/97/8c/abstract_Ae_Plexus-630175.jpg!d);
 	background-attachment: fixed;
 	background-position:center;
 	background-size: cover;
-	padding-top:30vh;
 }
 .foto_perfil {
 	display:block;
@@ -1521,4 +1539,3 @@ li {
 .special2:hover {
 	background-color:#0055d0;
 }
-
