@@ -290,7 +290,7 @@
 }	
 @media only screen and (max-width:1280px) {
 	.foto_perfil {
-		width:16vw;
+		width:25vw;
 	}
 	.segunda_foto {
 		height:30vw;
@@ -298,15 +298,15 @@
 		margin-left:0vw;
 	}
 	.title {
-		margin-top:1.6vw;
-		line-height:4.1vw;
-		font-size:3.6vw;
+		margin-top:3.5vw;
+		line-height:9vw;
+		font-size:7vw;
 	}
 	.cajita {
 		width:420px;
 		height:70px;
 		margin-left:calc(50% - 210px);
-		margin-top:1.3vw;
+		margin-top:3vw;
 	}
 	.icons {
 		width:50px;
@@ -1521,3 +1521,4 @@ li {
 .special2:hover {
 	background-color:#0055d0;
 }
+
