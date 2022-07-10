@@ -340,12 +340,12 @@
 	}
 	.lista2 {
 		float:left;
-		margin-left:2vw;
+		margin-left:1.5vw;
 	}
 
 	.lista1 {
 		float:right;
-		margin-right:2vw;
+		margin-right:1.5vw;
 	}
 	li {
 		text-justify:justify;
