@@ -1055,7 +1055,7 @@
 		font-size:2.2vw;
 	}
 	.sect8 {
-		width:100%;
+		width:100vw;
 		height:525px;
 		padding:10px;	
 	}
@@ -2169,3 +2169,4 @@ li {
 .special2:hover {
 	background-color:#0055d0;
 }
+
